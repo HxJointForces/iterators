@@ -1,13 +1,13 @@
 package;
-import iterators.TestKeyValueIterator;
-import iterators.TestStringIterator;
+import iterators.KeyValueIteratorTest;
+import iterators.StringIteratorTest;
 
 class TestRunner extends haxe.unit.TestRunner {
 	
 	public static function main() {
 		var runner = new TestRunner();
-		runner.add(new TestKeyValueIterator());
-		runner.add(new TestStringIterator());
+		runner.add(new KeyValueIteratorTest());
+		runner.add(new StringIteratorTest());
 		runner.run();
 	}
 }

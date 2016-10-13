@@ -2,7 +2,7 @@ package iterators;
 import haxe.unit.TestCase;
 using iterators.KeyValueIterator;
 
-class TestKeyValueIterator extends TestCase {
+class KeyValueIteratorTest extends TestCase {
 	
 	function testKeyValuePair() {
 		var map = ["key" => "value"];

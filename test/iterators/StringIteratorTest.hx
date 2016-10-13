@@ -2,7 +2,7 @@ package iterators;
 import haxe.unit.TestCase;
 using iterators.StringIterator;
 
-class TestStringIterator extends TestCase {
+class StringIteratorTest extends TestCase {
 
 	public function testNext() {
 		var s = "12";
