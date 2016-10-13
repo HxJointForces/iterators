@@ -4,7 +4,7 @@ using iterators.StringIterator;
 
 class StringIteratorTest extends TestCase {
 
-	public function testNext() {
+	public function testIterator() {
 		var s = "12";
 		var iterator = s.iterator();
 		assertTrue(iterator.hasNext());
