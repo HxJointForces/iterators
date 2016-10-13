@@ -1,0 +1,33 @@
+#Cleanup
+-cmd rm -rf build
+--next
+-cmd mkdir build
+
+#Build
+--next ./build_test_3.2.1.hxml
+
+#Run
+-cmd echo Running Neko
+-cmd neko ./build/neko/iterators.n
+
+-cmd echo Running JavaScript
+-cmd node ./build/js/iterators.js
+
+-cmd echo Running Python
+-cmd python ./build/python/iterators.py
+
+-cmd echo Running PHP
+-cmd php ./build/php/index.php
+
+-cmd echo Running Java
+-cmd java -jar ./build/java/TestRunner.jar
+
+#-cmd echo Running CSharp
+#-cmd mono ./build/cs/bin/TestRunner.exe
+
+#-cmd echo Running SWF
+#-cmd if [ -z "$SKIP_SWF" ]; then fdb ./build/swf/TestRunner.swf 2> /dev/null && cat ~/.macromedia/Flash_Player/Logs/flashlog.txt; else  echo "SKIP"; fi
+
+#-cmd echo Running CPP
+#-cmd chmod +x ./build/cpp/TestRunner && ./build/cpp/TestRunner
+

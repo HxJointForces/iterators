@@ -1,0 +1,3 @@
+#LUA
+-cmd echo Building LUA
+--next hxml/lua.hxml

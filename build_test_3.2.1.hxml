@@ -1,0 +1,34 @@
+-cmd echo Building tests
+
+#Neko
+--next
+-cmd echo Building Neko
+--next hxml/neko.hxml
+
+#SWF
+-cmd echo Building SWF
+--next hxml/swf.hxml
+
+#JavaScript
+-cmd echo Building JavaScript
+--next hxml/js.hxml
+
+#Python
+-cmd echo Building Python
+--next hxml/python.hxml
+
+#PHP
+-cmd echo Building PHP
+--next hxml/php.hxml
+
+#CPP
+#-cmd echo Building CPP
+#--next hxml/cpp.hxml
+
+#CSharp
+-cmd echo Building CSharp
+--next hxml/cs.hxml
+
+#Java
+-cmd echo Building Java
+--next hxml/java.hxml

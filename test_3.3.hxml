@@ -1,0 +1,8 @@
+./test_3.2.1.hxml
+
+#Build
+--next ./build_test_3.3.hxml
+
+#Run
+-cmd echo Running LUA
+-cmd lua ./build/lua/iterators.lua
