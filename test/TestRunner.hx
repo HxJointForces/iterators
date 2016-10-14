@@ -1,5 +1,6 @@
 package;
 import iterators.KeyValueIteratorTest;
+import iterators.ReverseArrayIteratorTest;
 import iterators.ReverseIntIteratorTest;
 import iterators.StringIteratorTest;
 
@@ -10,6 +11,7 @@ class TestRunner extends haxe.unit.TestRunner {
 		runner.add(new KeyValueIteratorTest());
 		runner.add(new StringIteratorTest());
 		runner.add(new ReverseIntIteratorTest());
+		runner.add(new ReverseArrayIteratorTest());
 		runner.run();
 	}
 }
