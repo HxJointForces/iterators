@@ -2,7 +2,6 @@ package iterators;
 
 class ReverseArrayIterator {
 
-	@:generic
 	public static inline function reverseIterator<T>(a:Array<T>):ReverseArrayIterator return new ReverseArrayIterator(a);
 	
 	var a:Array<Dynamic>;
