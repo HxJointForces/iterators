@@ -7,27 +7,35 @@
 --next ./build_test_3.2.1.hxml
 
 #Run
+-cmd echo
 -cmd echo Running Neko
 -cmd neko ./build/neko/iterators.n
 
+-cmd echo
 -cmd echo Running JavaScript
 -cmd node ./build/js/iterators.js
 
+-cmd echo
 -cmd echo Running Python
--cmd python ./build/python/iterators.py
+-cmd python3 ./build/python/iterators.py
 
+-cmd echo
 -cmd echo Running PHP
 -cmd php ./build/php/index.php
 
+-cmd echo
 -cmd echo Running Java
--cmd java -jar ./build/java/TestRunner.jar
+-cmd java -jar ./build/java/TestRunner-Debug.jar
 
+#-cmd echo
 #-cmd echo Running CSharp
-#-cmd mono ./build/cs/bin/TestRunner.exe
+#-cmd mono ./build/cs/bin/TestRunner-Debug.exe
 
+#-cmd echo
 #-cmd echo Running SWF
-#-cmd if [ -z "$SKIP_SWF" ]; then fdb ./build/swf/TestRunner.swf 2> /dev/null && cat ~/.macromedia/Flash_Player/Logs/flashlog.txt; else  echo "SKIP"; fi
+#-cmd fdb ./build/swf/TestRunner.swf 2> /dev/null && cat ~/.macromedia/Flash_Player/Logs/flashlog.txt
 
+#-cmd echo
 #-cmd echo Running CPP
-#-cmd chmod +x ./build/cpp/TestRunner && ./build/cpp/TestRunner
+#-cmd chmod +x ./build/cpp/TestRunner-debug && ./build/cpp/TestRunner-debug
 

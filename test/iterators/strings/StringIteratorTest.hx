@@ -1,6 +1,8 @@
-package iterators;
+package iterators.strings;
+
 import haxe.unit.TestCase;
-using iterators.StringIterator;
+
+using iterators.All;
 
 class StringIteratorTest extends TestCase {
 
@@ -12,5 +14,5 @@ class StringIteratorTest extends TestCase {
 		assertEquals("2", iterator.next());
 		assertFalse(iterator.hasNext());
 	}
-	
+
 }

@@ -22,8 +22,8 @@
 --next hxml/php.hxml
 
 #CPP
-#-cmd echo Building CPP
-#--next hxml/cpp.hxml
+-cmd echo Building CPP
+--next hxml/cpp.hxml
 
 #CSharp
 -cmd echo Building CSharp

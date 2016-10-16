@@ -1,4 +1,4 @@
-package iterators;
+package iterators.ints;
 
 class ReverseIntIterator {
 	var max:Int;
@@ -13,12 +13,12 @@ class ReverseIntIterator {
 		this.min = min;
 		this.max = max;
 	}
-	
+
 	/**
 		Returns true if the iterator has other items, false otherwise.
 	**/
 	public inline function hasNext():Bool return max > min;
-	
+
 	/**
 		Moves to the next item of the iterator.
 

@@ -1,0 +1,13 @@
+test_3.3.hxml
+
+-cmd echo
+-cmd echo Running CSharp
+-cmd mono ./build/cs/bin/TestRunner-Debug.exe
+
+-cmd echo
+-cmd echo Running SWF
+-cmd fdb ./build/swf/iterators.swf > /dev/null 2>&1 && cat ~/.macromedia/Flash_Player/Logs/flashlog.txt
+
+-cmd echo
+-cmd echo Running CPP
+-cmd chmod +x ./build/cpp/TestRunner-debug && ./build/cpp/TestRunner-debug

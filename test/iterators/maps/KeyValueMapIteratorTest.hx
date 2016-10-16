@@ -1,9 +1,11 @@
-package iterators;
+package iterators.maps;
+
 import haxe.unit.TestCase;
-using iterators.KeyValueIterator;
+
+using iterators.All;
 
 class KeyValueIteratorTest extends TestCase {
-	
+
 	function testKeyValuePair() {
 		var map = ["key" => "value"];
 		var pair = map.pairs().next();

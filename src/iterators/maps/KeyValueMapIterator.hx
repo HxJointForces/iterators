@@ -1,12 +1,12 @@
-package iterators;
+package iterators.maps;
 
-class KeyValueIterator<K, V> {
+class KeyValueMapIterator<K, V> {
 
-    static public inline function pairs<K, V>(map:Map<K, V>) return new KeyValueIterator(map);
+    static public inline function pairs<K, V>(map:Map<K, V>) return new KeyValueMapIterator(map);
 
     var map:Map<K, V>;
     var keys:Iterator<K>;
-	
+
     public inline function new(map:Map<K, V>) {
         this.map = map;
         this.keys = map.keys();
