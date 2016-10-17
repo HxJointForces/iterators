@@ -1,4 +1,4 @@
-package iterators.ints;
+package iterators.implementation;
 
 class ReverseIntIterator {
 	var max:Int;

@@ -1,8 +1,8 @@
-package iterators.strings;
+package iterators.implementation;
 
 import haxe.unit.TestCase;
 
-using iterators.All;
+using iterators.Iterators;
 
 class StringIteratorTest extends TestCase {
 

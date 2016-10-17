@@ -1,9 +1,7 @@
-package iterators.arrays;
+package iterators.implementation;
 
+@:dox(hide)
 class ReverseArrayIterator<T> {
-
-	public static inline function reverseIterator<TType>(a:Array<TType>):ReverseArrayIterator<TType> return new ReverseArrayIterator(a);
-
 	var a:Array<T>;
 	var i:Int;
 

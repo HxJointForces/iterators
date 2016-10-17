@@ -1,8 +1,8 @@
-package iterators.arrays;
+package iterators.implementation;
 
 import haxe.unit.TestCase;
 
-using iterators.All;
+using iterators.Iterators;
 
 class ReverseArrayIteratorTest extends TestCase {
 

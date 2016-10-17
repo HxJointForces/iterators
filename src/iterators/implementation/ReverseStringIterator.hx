@@ -1,9 +1,6 @@
-package iterators.strings;
+package iterators.implementation;
 
 class ReverseStringIterator {
-
-	public static inline function reverseIterator(s:String):ReverseStringIterator return new ReverseStringIterator(s);
-
 	var s:String;
 	var i:Int;
 

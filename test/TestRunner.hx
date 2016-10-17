@@ -1,16 +1,12 @@
 package;
 
-import iterators.maps.KeyValueMapIteratorTest;
-import iterators.arrays.ReverseArrayIteratorTest;
-import iterators.ints.ReverseIntIteratorTest;
-import iterators.strings.ReverseStringIteratorTest;
-import iterators.strings.StringIteratorTest;
+import iterators.implementation.*;
 
 class TestRunner extends haxe.unit.TestRunner {
 
 	public static function main() {
 		var runner = new TestRunner();
-		runner.add(new KeyValueIteratorTest());
+		runner.add(new KeyValueMapIteratorTest());
 		runner.add(new ReverseArrayIteratorTest());
 		runner.add(new ReverseIntIteratorTest());
 		runner.add(new ReverseStringIteratorTest());

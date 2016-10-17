@@ -1,9 +1,6 @@
-package iterators.strings;
+package iterators.implementation;
 
 class StringIterator {
-
-	public static inline function iterator(s:String):StringIterator return new StringIterator(s);
-
 	var s:String;
 	var i = 0;
 

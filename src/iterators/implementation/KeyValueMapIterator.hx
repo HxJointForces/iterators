@@ -1,9 +1,6 @@
-package iterators.maps;
+package iterators.implementation;
 
 class KeyValueMapIterator<K, V> {
-
-    static public inline function pairs<K, V>(map:Map<K, V>) return new KeyValueMapIterator(map);
-
     var map:Map<K, V>;
     var keys:Iterator<K>;
 
