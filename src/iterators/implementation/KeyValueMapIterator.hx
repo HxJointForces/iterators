@@ -1,5 +1,6 @@
 package iterators.implementation;
 
+@:dox(hide)
 class KeyValueMapIterator<K, V> {
     var map:Map<K, V>;
     var keys:Iterator<K>;
@@ -17,6 +18,7 @@ class KeyValueMapIterator<K, V> {
     }
 }
 
+@:dox(hide)
 class KeyValuePair<K, V> {
     public var key(default, null):K;
     public var value(default, null):V;

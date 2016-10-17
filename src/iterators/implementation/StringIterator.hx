@@ -1,5 +1,6 @@
 package iterators.implementation;
 
+@:dox(hide)
 class StringIterator {
 	var s:String;
 	var i = 0;

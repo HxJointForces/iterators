@@ -1,5 +1,6 @@
 package iterators.implementation;
 
+@:dox(hide)
 class ReverseIntIterator {
 	var max:Int;
 	var min:Int;

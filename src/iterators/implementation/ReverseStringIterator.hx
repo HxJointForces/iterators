@@ -1,5 +1,6 @@
 package iterators.implementation;
 
+@:dox(hide)
 class ReverseStringIterator {
 	var s:String;
 	var i:Int;
