@@ -1,6 +1,8 @@
-package iterators;
+package iterators.implementation;
+
 import haxe.unit.TestCase;
-using iterators.ReverseStringIterator;
+
+using iterators.Iterators;
 
 class ReverseStringIteratorTest extends TestCase {
 

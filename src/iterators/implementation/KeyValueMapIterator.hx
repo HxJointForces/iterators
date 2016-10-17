@@ -1,12 +1,10 @@
-package iterators;
+package iterators.implementation;
 
-class KeyValueIterator<K, V> {
-
-    static public inline function pairs<K, V>(map:Map<K, V>) return new KeyValueIterator(map);
-
+@:dox(hide)
+class KeyValueMapIterator<K, V> {
     var map:Map<K, V>;
     var keys:Iterator<K>;
-	
+
     public inline function new(map:Map<K, V>) {
         this.map = map;
         this.keys = map.keys();
@@ -20,6 +18,7 @@ class KeyValueIterator<K, V> {
     }
 }
 
+@:dox(hide)
 class KeyValuePair<K, V> {
     public var key(default, null):K;
     public var value(default, null):V;
